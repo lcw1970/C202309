@@ -21,4 +21,5 @@ int hapf(int value)
 		
 	}
 	return hap;
+	return 0;
 }

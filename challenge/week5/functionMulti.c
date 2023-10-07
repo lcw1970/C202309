@@ -2,7 +2,7 @@
 
 int multif(int value); // multf 함수 선언
 
-void main()
+int main()
 {
 	printf("1부터 2까지의 곱은 %d\n", multif(2)); // 출력
 	printf("1부터 3까지의 곱은 %d\n", multif(3));
@@ -19,4 +19,5 @@ int multif(int value) {
 		i++; // i에 1더함
 	}
 	return multi;
+	return 0;
 }
