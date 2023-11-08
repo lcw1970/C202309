@@ -18,7 +18,7 @@ void multification(double* a, double* b, double* result) {
 // division 함수
 int division(double* a, double* b, double* result) {
 	if (*b == 0) {
-		printf("오류: 0으로 나누는 것은 허용되지 않습니다.\n");
+		printf("오류 0을 입력하셨습니다..\n");
 		return 0; // 오류를 표시하기 위해 0을 반환
 	}
 	*result = *a / *b;
